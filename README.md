@@ -6,7 +6,7 @@
 
 <h1> SERWER 💻 </h1>
 <p> Strona jest na obslugiwana na serwerze node.js express 🚀</p>
-<h2> Jak skonfigurować serwer? ❓</h2>
+<h2> Jak skonfigurować serwer❓</h2>
 <h3>Uzyj tych komend w cmd lub powershell lub w konsoli aplikacji node.js 💻</h3>
 <ol>
   <li>Zainstaluj node.js na komputerze 💻</li>
