@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="index_styles.css">
+</head>
+<body bgcolor="#fff5d7">
+    <div class="header">
+        <br>
+    <h1>Logowanie do TaskWeb!</h1>
+    <br>
+</div>
+<b>
+    <div class="position">
+    <form id="loginForm">
+    </b>
+        <label for="username"><b>Nazwa użytkownika: </b></label> <br> <br>
+        <input type="text" id="username" name="username" maxlength="8" required>
+        <br> <br>
+        <label for="role"><b>Jako kto chcesz się zalogować?</b></label> <br><br>
+        <select id="role" name="role"> <br>
+            <option value="teacher">Nauczyciel</option>
+            <option value="student">Uczeń</option>
+        </select>
+        <br> <br>
+        <button type="submit">Zaloguj się</button>
+    </form>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
