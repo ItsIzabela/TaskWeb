@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const taskList = document.getElementById('taskList');
             const taskItem = document.createElement('div');
-            taskItem.innerHTML = `<p>Zadanie: ${task}, Czas trwania: ${duration} minut</p>`;
+            taskItem.innerHTML = `<p>Zadanie: ${task}, \n \n \n Czas trwania: ${duration} minut</p>`;
             taskList.appendChild(taskItem);
 
             localStorage.setItem('task', JSON.stringify({ task, duration }));
@@ -57,7 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 updateCountdown();
             } else {
                 clearInterval(countdownInterval);
-                countdownDisplay.textContent = 'Time Up!';
+                alert('Time is up!');
+                window.location.href = 'index.html';
             }
         }, 1000);
 
@@ -88,4 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+});
+
+document.getElementById('logoutButton').addEventListener('click', function() {
+    window.location.href = 'index.html';
 });

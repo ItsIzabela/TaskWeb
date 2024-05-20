@@ -1,40 +1,45 @@
 .position {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
+    font-size: x-large;
+    color: #3a4660;
 }
 .header {
     text-align: center;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 30px;
-    background-color: #222;
+    background-color: #c9af98;
+    color: #3a4660;
+    border-radius: 100px;
 }
 
 select {
-    color: black;
-    background-color: #555;
+    color: #3a4660;
+    background-color: #c9af98;
     border: 10px;
     border-style: solid;
-    border-color: #333;
+    border-color: #c9af98;
     font-size: larger;
 }
 
 button {
-    color: black;
-    background-color: #444;
-    border-color: #333;
+    color: #3a4660;
+    background-color: #c9af98;
+    border-color: #c9af98;
     font-size: x-large;
 }
 
 input[type="text"] {
     height: 100px;
-    background-color: #666;
+    background-color: #c9af98;
     font-size: 22px;
+    color: #3a4660;
     
 }
 input[type="number"] {
-    background-color: #666;
+    background-color: #c9af98;
     font-size: 18px;
+    color: #3a4660;
     
 }

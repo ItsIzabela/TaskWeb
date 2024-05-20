@@ -6,7 +6,7 @@
     <title>Uczeń</title>
     <link rel="stylesheet" href="student_styles.css">
 </head>
-<body bgcolor="#333">
+<body bgcolor="#fff5d7">
     <div class="header">
         <br>
         <h1>Strona ucznia</h1>
@@ -14,17 +14,22 @@
     </div>
     <div class="position">
         <b>
-            <div id="taskList"></div> <br>
-            <div id="answerSection">
+            <div id="taskList"></div> 
+            <div id="answerSection"> 
         </b>
-        <form id="answerForm">
+        <form id="answerForm"> <br>
             <p id="countdown"></p>
-            <br> <br>
+            <br> 
             <label for="answer"><b>Twoja odpowiedź:</b></label> <br> <br>
             <input type="text" id="answer" name="answer" required>
             <br> <br>
 
-            <button type="submit">Zakończ zadanie</button>
+            <button type="submit">Zakończ zadanie</button> <br> <br> <br>
+
+            <details>
+                <summary> <b> UWAGA!</b></summary>
+                <p> <div class="warrning"> <b>Jeśli nie nacisniesz przycisku zakończ zadanie samodzielnie, ZADANIE NIE ZAPISZE SIĘ!!!</b></div></p>
+            </details>
         </form>
     </div>
 </div>
