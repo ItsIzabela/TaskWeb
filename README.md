@@ -17,8 +17,8 @@
   <li> By wejść na stronie wejdz w link: http://localhost:3001/</li>
 </ol>
 <h1>Autorzy:</h1>
-serwer: Izabela <br>
-html: Izabela <br>
-css: Izabela <br>
+Server: Izabela <br>
+HTML: Izabela <br>
+Css: Izabela <br>
 JavaScript: Izabela i Kamila <br>
-dokumentacja: Izabela <br>
+Dokumentacja: Izabela <br>
