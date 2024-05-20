@@ -10,7 +10,7 @@
 <ol>
   <li>Zainstaluj node.js na komputerze</li>
   <li>Wpisz ścieżkę do pliku ../test</li>
-  <li>W terminalu wpisz: npm init --y</li>
+  <li>W terminalu wpisz: npm init --y ~~ instalowanie paczki </li>
   <li> A także: npm install express body-parser ~~ zainstaluje to wszystkie potrzebne moduły</li>
   <li> Wpisz: node server.js ~~ aby właczyć serwer</li>
   <li> By wejść na stronie wejdz w link: http://localhost:3001/</li>
