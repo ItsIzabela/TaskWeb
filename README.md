@@ -1,7 +1,7 @@
 <h1> TaskWeb </h1> <br>
 <details>
 <summary>O stronie!</summary>
-<p> Strona szkolna, na której nauczyciel może wstawić zadania dla uczniów!</p>
+<p> Strona szkolna, dla nauczycieli by ułatwić im zadania online dla uczniów!</p>
 </details>
 
 <h1> SERWER</h1>
