@@ -1,0 +1,40 @@
+.position {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+.header {
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+    background-color: #222;
+}
+
+select {
+    color: black;
+    background-color: #555;
+    border: 10px;
+    border-style: solid;
+    border-color: #333;
+    font-size: larger;
+}
+
+button {
+    color: black;
+    background-color: #444;
+    border-color: #333;
+    font-size: x-large;
+}
+
+input[type="text"] {
+    height: 100px;
+    background-color: #666;
+    font-size: 22px;
+    
+}
+input[type="number"] {
+    background-color: #666;
+    font-size: 18px;
+    
+}
