@@ -10,7 +10,7 @@
 <h3>Uzyj tych komend w cmd lub powershell lub w konsoli aplikacji node.js 💻</h3>
 <ol>
   <li>Zainstaluj node.js na komputerze 💻</li>
-  <li>Wpisz ścieżkę do pliku ../test 📂</li>
+  <li>Wpisz ścieżkę do pliku ../TaskWeb-main 📂</li>
   <li>W terminalu wpisz: npm init --y ~~ instalowanie paczki 💻</li>
   <li> A także: npm install express body-parser ~~ zainstaluje to wszystkie potrzebne moduły 💻</li>
   <li> Wpisz: node server.js ~~ aby właczyć serwer 💻</li>
